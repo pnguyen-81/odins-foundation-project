@@ -1,0 +1,134 @@
+body, div, ul {
+    display: flex;
+}
+
+body, .main-main, .illustrations, .last-call, .testimony, .information{
+    flex-direction: column;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    flex: 2;
+}
+
+footer {
+    height: 3rem;  
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    padding-top: 30px;
+}
+
+.header {
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 10px 20% 10px 20%;
+    color: white;
+}
+
+.header-links {
+    gap: 20px;
+}
+
+.main {
+    padding: 50px 20% 50px 20%;
+    gap: 50px;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+}
+
+.main-main {
+    flex: 2;
+
+}
+
+.main-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.main-desc {
+    color: #f9faf8;
+}
+
+.main img {
+    flex: 2;
+    background-color: grey;
+}
+
+.first-btn, .last-btn {
+    color: white;
+    background-color: #3882f6;
+    width: 100px;
+    padding: 5px ;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 0ch;
+}
+
+.information {
+    padding: 10px 20% 65px 20%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.illustrations {
+    width: 150px;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.illustrations .picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    border: 2px solid #1f2937;
+}
+
+.testimony {
+    padding: 10px 23% 40px 23%;
+    justify-content: right;
+    align-items: flex-end;
+    background-color: #e5e7eb;
+}
+
+.testimony-text {
+    padding-top: 20px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.testimony-guy {
+    font-weight: bolder;
+}
+
+.last { 
+    margin: 50px 20% 50px 20%;
+    border-radius: 15px;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 2% 15px 2%;
+}
+
+.last-btn {
+    margin-top: 15px;
+    border: 1px solid white;
+}
+
+.last-call h5 {
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.last-call {
+    color: white;
+}
